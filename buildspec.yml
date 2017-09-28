@@ -1,4 +1,5 @@
-version 0.1
+---
+version: 0.1
 
 phases:
   build:
@@ -6,7 +7,8 @@ phases:
       - echo NADA
 
 artifacts:
-  - index.html
-  - favicon.ico
-  - styles/*
-  - images/*      
+  files:
+    - index.html
+    - favicon.ico
+    - styles/*
+    - images/*      
